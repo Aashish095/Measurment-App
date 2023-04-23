@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from models import Measurement
 
 from flask_migrate import Migrate
@@ -67,9 +67,8 @@ def get_measurement():
 
 
 @app.route('/')
-def hello_world():  # put application's code here
-    return 'Hello World!'
-
+def index():
+    return render_template("/out/index.html")
 
 if __name__ == '__main__':
     app.run()

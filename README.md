@@ -1,3 +1,11 @@
+To Run this code 
+1. git clone
+2. cd /my-app/assignment/
+3. activate environment using venv source /venv/bin/activate
+4. and install all the requirements from requirements.txt pip install -r requirements.txt
+5. flask run
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
